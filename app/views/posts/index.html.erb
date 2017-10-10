@@ -58,7 +58,7 @@ th {
 <table class="table table-striped table-hover" id="tabla">
   <thead>
     <tr>
-      <th>Title</th>
+      <th>Entrenador</th>
       <th>Juego</th>
       <th>Idioma</th>
       <th> Comentarios </th>
@@ -72,8 +72,8 @@ th {
         <td><%= image_tag(post.picture, size:"100x100") %></td>
         <%#= post.title %>
         <%#s= pot.content %>
-        <td> <%= image_tag post.game.image, size:"100x100" %> </td>
-        <th> <%= image_tag post.language.image, size:"120x100" %> </th>
+        <td> <%= image_tag post.game.image, size:"200x100" %> </td>
+        <th> <%= image_tag post.language.image, size:"60x50" %> </th>
 
          <td><%= post.comments.count %></td>
         <td><%= link_to 'Ver', post %></td>

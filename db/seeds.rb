@@ -11,11 +11,11 @@ Game.destroy_all
 
 Language.create(name: 'English', image: 'http://www.metacinefilms.com/Img/flag/us.png')
 Language.create(name: 'Spanish', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Color_banner.svg/750px-Color_banner.svg.png')
-Language.create(name: 'Portuguese', image: 'http://www.palimpalem.com/5/sudamerica/thumbs/thumb_bandera-brasil-8.jpg')
-Language.create(name: 'Español', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Color_banner.svg/750px-Color_banner.svg.png')
+Language.create(name: 'Portuguese', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/300px-Flag_of_Brazil.svg.png')
+
 
 Game.create(name: 'CS:GO', image: 'https://vignette.wikia.nocookie.net/agk/images/3/33/CS_GO.png/revision/latest?cb=20150621102555')
 Game.create(name: 'LOL', image: 'http://vignette1.wikia.nocookie.net/leagueoflegends/images/8/86/League_of_legends_logo_transparent.png/revision/latest?cb=20131023175853')
-Game.create(name: 'DOTA', image: 'https://www.streamingaddict.net/media/2016/03/dota-2.png')
+Game.create(name: 'DOTA', image: 'https://www.hiveworkshop.com/attachments/dota_2_logo-png.141851/')
 
 
